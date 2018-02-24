@@ -1,0 +1,13 @@
+#En Unit on dona un petita descripció del servei. Abans de que el servei s’arrenqui han d’estar actius syslog.target i network.targe
+[Unit]
+Description=Minidlna Daemon
+After=syslog.target network.target
+
+# En Service indica que es de tipus forking de bifurcació i indica l’arxius binaris.
+[Service]
+Type=forking
+ExecStart=/sbin/minidlnad
+
+# En Install que servei per tots els usuaris
+[Install]
+WantedBy=multi-user.target
