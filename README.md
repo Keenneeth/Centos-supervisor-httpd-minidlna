@@ -8,7 +8,7 @@ Indicar ports :
 - Minidlna per defecte el 8200
 - Supervisor per defecte el 9001
 
-## Usuari :
+## Usuari| Variables d'entorn :
 
 Hi ha dues variables d'entorn per tal de configurar l'usuari i contrasenya :
 
