@@ -24,4 +24,4 @@ Hi ha dues variables d'entorn per tal de configurar l'usuari i contrasenya :
 - Document root del apache per tal de que el servidor web tingui una web.
 
 ## Keenneeth
-### docker pull : docker pull keenneeth/centos-supervisor-httpd-minidlna
+### docker pull keenneeth/centos-supervisor-httpd-minidlna
