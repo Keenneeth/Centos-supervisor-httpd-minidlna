@@ -34,8 +34,7 @@ RUN	systemctl enable minidlnad
 	#Comanda Sed per tal de canviar l'usuari creat de manera predeterminada, amb l'usuari que enviem amb les variables d'entorn 
 RUN \
 	sed -ri "s/docker/${USER}/g" /etc/supervisord.conf && \
-	sed -ri "s/root/${PASSWORD}/g" /etc/supervisord.conf && \
-	sed -ri "s/docker/${USER}/g" /etc/minidlna.conf
-
+	sed -ri "s/root/${PASSWORD}/g" /etc/supervisord.conf
+	
 	#Executar script del Supervisor
 	ENTRYPOINT ["/config/bootstrap.sh"]
