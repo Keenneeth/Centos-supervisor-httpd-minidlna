@@ -4,16 +4,16 @@ Centos amb dos serveis Apache i Minidlna
 ## Docker run :
 
 Indicar ports : 
-Apache per defecte el 80
-Minidlna per defecte el 8200
-Supervisor per defecte el 9001
+- Apache per defecte el 80
+- Minidlna per defecte el 8200
+- Supervisor per defecte el 9001
 
 ## Usuari :
 
 Hi ha dues variables d'entorn per tal de configurar l'usuari i contrasenya :
 
-username per defecte : docker 
-password per defecte : root
+- username per defecte : docker 
+- password per defecte : root
 
 ## Directoris de configuració que s'han afegit :
 
